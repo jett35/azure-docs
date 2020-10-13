@@ -113,7 +113,7 @@ The configuration includes the following sections:
 * `content` specifies the firmware desired properties sent to the selected devices.
 * `metrics` specifies the queries to run that report the status of the firmware update.
 * `targetCondition` selects the devices to receive the firmware update.
-* `priorty` sets the relative priority of this configuration to other configurations.
+* `priority` sets the relative priority of this configuration to other configurations.
 
 The back-end application uses the following code to create the configuration to set the desired properties:
 
